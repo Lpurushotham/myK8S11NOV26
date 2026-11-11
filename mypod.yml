@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: hellow-pod
+  name: hi-pod
 spec:
  containers:
-   - name: 1st-containers
+   - name: 1st-container
      image: nginx
      ports:
      - containerPorts: 80
