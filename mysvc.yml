@@ -9,6 +9,6 @@ spec:
   ports:
     - protocol: TCP
       port: 8080
-      nodePort: 29000
+      nodePort: 30030
   selector:
      app: myapp        
